@@ -9,19 +9,19 @@ language: php
 
 #versi bahasa 
 php:
-	- 7.1
+    - 7.1
 	
 #branch
 branches:
-	only:
-	- master
-	- develop
+    only:
+        - master
+        - develop
 #before install
 before_install:
-	- wget https://phar.phpunit.de/phpunit-6.5.phar
-	- chmod +x phpunit-6.5.phar
-	- sudo mv phpunit-6.5.phar /usr/local/bin/phpunit
-	- phpunit --version
+    - wget https://phar.phpunit.de/phpunit-6.5.phar
+    - chmod +x phpunit-6.5.phar
+    - sudo mv phpunit-6.5.phar /usr/local/bin/phpunit
+    - phpunit --version
 
 #install
 install:
