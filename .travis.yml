@@ -10,7 +10,7 @@ language: php
 #versi bahasa 
 php:
     - 7.1
-	
+
 #branch
 branches:
     only:
